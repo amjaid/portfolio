@@ -1,0 +1,38 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: #0a0a0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.loading-logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #12121a, #1a1a24);
+  border-radius: 20px;
+  border: 2px solid #2a2a3a;
+}
+
+.loading-logo .logo-icon {
+  font-size: 2.5rem;
+}
+
+.loading-content p {
+  color: #8888a0;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
